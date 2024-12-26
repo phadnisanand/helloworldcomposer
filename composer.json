@@ -1,0 +1,5 @@
+{
+    "require": {
+        "packagistcustom/hello-composer": "dev-master"
+    }
+}

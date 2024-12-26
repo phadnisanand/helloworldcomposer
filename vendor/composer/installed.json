@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "name": "packagistcustom/hello-composer",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phadnisanand/hello-composer.git",
+                "reference": "2dc110fbf39d78430cd6eee8294fc97118373754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phadnisanand/hello-composer/zipball/2dc110fbf39d78430cd6eee8294fc97118373754",
+                "reference": "2dc110fbf39d78430cd6eee8294fc97118373754",
+                "shasum": ""
+            },
+            "time": "2024-12-26T05:23:25+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "packagistcustom\\HelloWorld\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ogbonna packagistcustom",
+                    "email": "agavitalisogbonna@gmail.com"
+                }
+            ],
+            "description": "A simple hello world composer package",
+            "support": {
+                "issues": "https://github.com/phadnisanand/hello-composer/issues",
+                "source": "https://github.com/phadnisanand/hello-composer/tree/master"
+            },
+            "install-path": "../packagistcustom/hello-composer"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

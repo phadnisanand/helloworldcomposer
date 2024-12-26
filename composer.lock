@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "94f8db6b3c4d3b2d0bf5c93d506e356b",
+    "packages": [
+        {
+            "name": "packagistcustom/hello-composer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phadnisanand/hello-composer.git",
+                "reference": "2dc110fbf39d78430cd6eee8294fc97118373754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phadnisanand/hello-composer/zipball/2dc110fbf39d78430cd6eee8294fc97118373754",
+                "reference": "2dc110fbf39d78430cd6eee8294fc97118373754",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "packagistcustom\\HelloWorld\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ogbonna packagistcustom",
+                    "email": "agavitalisogbonna@gmail.com"
+                }
+            ],
+            "description": "A simple hello world composer package",
+            "support": {
+                "issues": "https://github.com/phadnisanand/hello-composer/issues",
+                "source": "https://github.com/phadnisanand/hello-composer/tree/master"
+            },
+            "time": "2024-12-26T05:23:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "packagistcustom/hello-composer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

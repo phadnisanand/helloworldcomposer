@@ -1,0 +1,17 @@
+{
+    "name": "packagistcustom/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ogbonna packagistcustom",
+            "email": "agavitalisogbonna@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"packagistcustom\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
